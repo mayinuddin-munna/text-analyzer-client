@@ -1,14 +1,14 @@
 import './App.css';
+import React from 'react';
 import TextField from './components/TextField.tsx';
 import BottomCounter from './components/BottomCounter.tsx';
-import React from 'react';
-import Counter from './components/Counter.tsx';
+import TopCounter from './components/TopCounter.tsx';
 
 function App() {
     return (
         <div className="App">
             <h2>Text Detector</h2>
-            <Counter />
+            <TopCounter />
             <TextField />
             <BottomCounter />
         </div>
