@@ -2,7 +2,7 @@ import styled from '@emotion/styled/macro';
 import React, { useContext, useState } from 'react';
 import { AppContext } from '../store/AppContext.tsx';
 
-const TextEditor = () => {
+const TextField = () => {
     const { setText } = useContext(AppContext);
     const [textAreaValue, setTextAreaValue] = useState<string>('');
 
@@ -40,4 +40,4 @@ const StyledTextArea = styled.textarea({
     '-moz-box-shadow': 'none',
 });
 
-export default TextEditor;
+export default TextField;
