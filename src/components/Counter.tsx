@@ -2,7 +2,7 @@ import styled from '@emotion/styled/macro';
 import React, { useContext } from 'react';
 import { AppContext } from '../store/AppContext.tsx';
 
-const TopContainer = () => {
+const Counter = () => {
     const { analyzedValues } = useContext(AppContext);
 
     return (
@@ -53,4 +53,4 @@ const Container = styled.div({
     },
 });
 
-export default TopContainer;
+export default Counter;

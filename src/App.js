@@ -1,14 +1,14 @@
 import './App.css';
-import TopContainer from './components/TopContainer.tsx';
 import TextEditor from './components/TextEditor.tsx';
 import BottomContainer from './components/BottomContainer.tsx';
 import React from 'react';
+import Counter from './components/Counter.tsx';
 
 function App() {
     return (
         <div className="App">
-            <h2>Text Analyzer</h2>
-            <TopContainer />
+            <h2>Text Detector</h2>
+            <Counter />
             <TextEditor />
             <BottomContainer />
         </div>

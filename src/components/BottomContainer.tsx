@@ -9,7 +9,7 @@ const BottomContainer = () => {
         <Container>
             <div>
                 <h3>Average reading time</h3>
-                <span>{`~ ${analyzedValues.averageReadingTime} mins`}</span>
+                <span>{`Reading Time: ${analyzedValues.averageReadingTime} mins`}</span>
             </div>
             <div>
                 <h3>Longest word</h3>
